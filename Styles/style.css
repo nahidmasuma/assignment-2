@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Header Section Syles */
+
+header{
+    background: rgba(228, 206, 182, 0.1);
+}
+
+.btn-primary{
+    background: #FF900E;
+    border-radius: 8px;
+    padding: 20px 25px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0px;
+}
+
+.btn-primary:hover{
+    border: 2px rgb(1, 1, 222) solid;
+}
+
+/* Nav bar Design  */
+
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 50px 240px;
+}
+
+.navTitle{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.navTitle:hover{
+    text-decoration: underline blue 3px;
+}
+
+nav ul{
+    width: 480px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul:hover{
+    text-decoration: underline blue 2px;
+}
+
+nav li{
+    list-style: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Banner Section Styles  */
+
+.banner{
+    padding: 0px 530px;
+    text-align: center;
+}
+
+.bannerTitle{
+    color: #131313;
+    font-weight: 700;
+    font-size: 64px;
+    padding-bottom: 30px;
+}
+
+.bannerTitle:hover{
+    text-decoration: underline blue 5px;
+}
+
+
+.bannerSubtitle{
+    color: #727272;
+}
+
+.bannerSubtitle:hover{
+    text-decoration: underline blue 2px;
+}
+.btnContainer{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.bannerImage{
+    margin: 50px 230px;
+}
+
+.bannerImage:hover{
+    border: blue 1px solid;
+}
+
+
+
+
+
+
+
