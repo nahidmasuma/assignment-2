@@ -264,7 +264,7 @@ nav li{
     padding: 50px 240px;
 }
 
-.sponsor-header{
+.sponsorHeader{
     text-align: center;
     margin-bottom: 50px;
     margin: 0 400px 50px 420px;
@@ -327,6 +327,22 @@ nav li{
     text-decoration: none;
     padding: 24px;
 }
+/* Footer Section Styles */
+
+footer{
+    margin: 50px 240px 250px 240px;
+    background: #FFF4E7;
+    border-radius: 8px;
+}
+
+footer:hover{
+    border: skyblue 3px solid;
+}
+
+.footer-title{
+    padding: 40px 410px;
+}
+
 
 
 
