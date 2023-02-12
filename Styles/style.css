@@ -96,6 +96,238 @@ nav li{
 .bannerImage:hover{
     border: blue 1px solid;
 }
+/* Feature Section Styles */
+
+.featureSection{
+    display: flex;
+    padding: 85px 300px 0px 300px;
+    gap: 70px;
+}
+
+.featureImages{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    gap: 24px;
+}
+
+.img-feat:hover{
+    border: blue 2px solid;
+    border-radius: 8px;
+}
+
+.features{
+    margin: 200px 0px;
+}
+
+.features:hover{
+    border: solid 3px blue;
+}
+
+.featureTitle{
+    color: #727272;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.featureDescription{
+    color: #727272;
+    padding: 30px 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+/* Feature Extention Section */
+
+.advertisement{
+    display: flex;
+    margin: 130px 240px 0 130px;
+    gap: 60px;
+}
+
+.advertisement:hover{
+    border: violet 3px solid;
+}
+
+
+
+.advTitle{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    padding: 24px 0 30px 0;
+    border-left: 6px solid #FF900E;;
+    height: 100px;
+}
+
+.advDescription{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    padding-bottom: 0;
+}
+
+.advCard{
+    padding: 30px 42px 30px 30px;
+}
+
+.cardTitle{
+    color: #131313;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+
+.cardDescription{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+/* About Section Styles */
+
+.about{
+    padding: 130px 240px;
+}
+
+.abt-title{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.abt-title:hover{
+    text-decoration: underline blue 3px;
+}
+
+.abt-description{
+    color: #727272;
+    margin-top: 24px;
+}
+
+.abt-description:hover{
+    text-decoration: underline blue 2px;
+}
+
+.abt-card{
+    display: flex;
+    margin: 100px 50px 0px 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.abt-card-format{
+    padding: 45px 35px 60px 35px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.abt-card-format:hover{
+    border: 2px solid blue;
+}
+
+.card-img:hover{
+    border: 2px blueviolet solid;
+}
+
+.abt-card-number{
+    color: #424242;
+    font-size: 45px;
+    font-weight: 600;
+    padding: 10px 0 5px 0;
+}
+
+.abt-card-status{
+    color: #727272;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.card-info:hover{
+    border: solid blue 2px;
+}
+
+/* Sponsor Section Styles */
+
+.sponsors{
+    padding: 50px 240px;
+}
+
+.sponsor-header{
+    text-align: center;
+    margin-bottom: 50px;
+    margin: 0 400px 50px 420px;
+}
+
+.sponsor-header:hover{
+    border: solid blue 2px;
+}
+
+.sponsor-section-title{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.companies{
+    display: flex;
+    justify-content: space-between;
+    filter: grayscale(1)
+}
+
+.cmp-img:hover{
+    border: blue solid 3px;
+}
+
+/* contact section styles */
+
+.contact{
+    display: flex;
+    gap: 100px;
+    background: lightgrey;
+    margin:0;
+    padding:0 240px
+}
+
+.contact .section-title{
+    text-align: left;
+    font-size: 45px;
+    font-weight: 700;
+    padding: 30px 0 20px 0;
+}
+
+.contact .section-title:hover{
+    text-decoration: underline 3px blue`;
+}
+
+.contact input[type="text"],input[type="email"],textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 30px 18px;
+
+}
+
+.contact input[type="text"]:hover,input[type="email"]:hover,textarea:hover{
+    border: #FF900E 2px solid;
+}
+
+.contact a{
+    text-decoration: none;
+    padding: 24px;
+}
+
 
 
 
